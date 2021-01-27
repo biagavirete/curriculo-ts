@@ -9,7 +9,7 @@ Projeto React utilizando Typescript desenvolvido na trilha React do Campinas Tec
 
 ```bash
 $ git clone https://github.com/biagavirete/curriculo-ts.git
-$ cd curriculo-ts.git
+$ cd curriculo-ts
 ```
 
 **Para rodar**
