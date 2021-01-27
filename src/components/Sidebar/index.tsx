@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import IContatos from '../../types/IContatos'
+import IEducacao from '../../types/IEducacao'
 import { IRespostaDados } from '../../types/IResposta'
 
 function Sidebar(props: IRespostaDados) {
@@ -19,7 +21,7 @@ function Sidebar(props: IRespostaDados) {
                     {showContacts &&
 
                         <div className="lista-de-contatos">
-                            {contatos.map(item => (
+                            {contatos.map((item: IContatos) => (
                                 <li key={item.id}>
                                     <div className="item-contato">
                                         <h4>{item.tipo}</h4>
@@ -34,7 +36,7 @@ function Sidebar(props: IRespostaDados) {
                 <div className="sidebar">
                     <h3>Educação</h3>
                     <div className="lista-de-formacao">
-                        {educacao.map(item => (
+                        {educacao.map((item: IEducacao) => (
                             <li key={item.id}>
                                 <h4>{item.curso}</h4>
                                 <p>{item.instituicao}</p>
