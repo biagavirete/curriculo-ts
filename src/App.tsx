@@ -55,17 +55,17 @@ function App() {
         id: 1,
         cargo: 'Freelancer front-end developer',
         periodo: 'Dezembro 2020 - atualmente',
-        empresa: 'Confidencial',
-        local: 'São Paulo - SP',
+        empresa: '',
+        local: '',
         conteudo: 'Desenvolvimento de página de uma aplicação web utilizando React, Redux e uma biblioteca interna, consumindo dados de API privada.'
       },
       {
         id: 2,
-        cargo: 'Experiência fake só para justificar fazer o map',
-        periodo: 'Setembro 1992 - atualmente',
-        empresa: 'Bia Ltda.',
-        local: 'Jacareí - SP',
-        conteudo: '    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        cargo: 'Advogada',
+        periodo: 'Julho 2014 - Fevereiro 2020',
+        empresa: 'First Brasil Group',
+        local: 'São Paulo - SP',
+        conteudo: 'Advogada interna de empresa do ramo de incorporação imobiliária e construção civil'
       }
     ]
   }
