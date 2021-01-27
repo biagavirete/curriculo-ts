@@ -2,6 +2,7 @@ import React from 'react'
 import { IRespostaDados } from '../../types/IResposta'
 
 function Header(props: IRespostaDados) {
+    const { nome, ocupacao, perfilProfissional, resumo } = props.resposta
 
     return (
         <>
@@ -10,10 +11,10 @@ function Header(props: IRespostaDados) {
             </div>
             <div className="biografia">
                 <h1>
-                    {props.resposta.nome}
+                    {nome}
                 </h1>
-                <div className="ocupacao">{props.resposta.ocupacao}</div>
-                <p>{props.resposta.resumo}</p>
+                <div className="ocupacao">{ocupacao}</div>
+                <p>{resumo}</p>
             </div>
 
             <div className="titulo">
@@ -22,7 +23,7 @@ function Header(props: IRespostaDados) {
 
             <div className="perfil-profissional">
                 <p>
-                    {props.resposta.perfilProfissional}
+                    {perfilProfissional}
                 </p>
             </div>
         </>
