@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css'
+import ExperienceList from './components/ExperienceList';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 
@@ -75,6 +76,7 @@ function App() {
     <main>
       <Header resposta={resposta} />
       <Sidebar resposta={resposta} />
+      <ExperienceList resposta={resposta} />
     </main>
   );
 }
