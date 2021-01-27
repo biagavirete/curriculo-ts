@@ -3,9 +3,10 @@ import './App.css'
 import ExperienceList from './components/ExperienceList';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import { IResposta } from './types/IResposta';
 
 function App() {
-  const fakeAPI =
+  const fakeAPI: IResposta =
   {
     nome: 'Beatriz Gavira',
     ocupacao: 'Front-end Developer',
