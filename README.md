@@ -2,6 +2,8 @@
 
 React project using TypeScript developed during Campinas Tech Talents bootcamp.
 
+Check the project <a href="https://biagavirete.github.io/curriculo-ts">here</a> :page_facing_up:
+
 ## Getting started
 
 **Installing**
