@@ -1,25 +1,25 @@
-# Currículo - TS
+# Resume
 
-Projeto React utilizando Typescript desenvolvido na trilha React do Campinas Tech Talents.
+React project using TypeScript developed during Campinas Tech Talents bootcamp.
 
-## Como usar
+## Getting started
 
-**Para instalar**
-> Clonar o repositório
+**Installing**
+>Cloning the repository
 
 ```bash
 $ git clone https://github.com/biagavirete/curriculo-ts.git
 $ cd curriculo-ts
 ```
 
-**Para rodar**
-> Instalar dependências
+**Running**
+> Installing dependencies
 
 ```bash
 $ npm install
 ```
 
-> Iniciar o React
+> Running React
 
 ```bash
 $  npm start
